@@ -1,0 +1,6 @@
+stage,model_stage,dpph_r2,abts_r2,dpph_delta,abts_delta
+1,Base Ensemble,0.455,0.735,NA,NA
+2,Hybrid (+Descriptors),0.546,0.882,+20.0%,+20.0%
+3,Domain-Adapted,0.641,0.892,+17.4%,+1.1%
+4,Stacking Ensemble (Nested),0.846,0.920,+32.0%,+3.1%
+NA,Naive Stacking (non-nested),0.891,0.947,NA,NA

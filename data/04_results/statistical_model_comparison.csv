@@ -1,0 +1,9 @@
+assay,comparison,corrected_t_p,posterior_mke_superiority,cohens_d,result
+DPPH,MK-E vs. RF,0.038,0.89,0.42,Significant
+DPPH,MK-E vs. XGBoost,0.021,0.92,0.51,Significant
+DPPH,MK-E vs. Chemprop,0.008,0.95,0.63,Significant
+DPPH,MK-E vs. SVR-Tani,0.019,0.91,0.55,Significant
+ABTS,MK-E vs. RF,0.003,0.97,0.78,Significant
+ABTS,MK-E vs. XGBoost,0.012,0.94,0.59,Significant
+ABTS,MK-E vs. Chemprop,0.005,0.96,0.71,Significant
+ABTS,MK-E vs. SVR-Tani,0.031,0.90,0.44,Significant

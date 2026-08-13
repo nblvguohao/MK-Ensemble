@@ -1,0 +1,3 @@
+fragment_group,ig_mean,ig_sd,shap_mean,shap_sd,ig_shap_spearman,bootstrap_rank_spearman,bootstrap_rank_spearman_sd,permutation_delta_r2,permutation_delta_r2_sd
+aglycone,1.63,0.22,1.58,0.24,0.91,0.87,0.06,-0.18,0.04
+glycosylated,0.41,0.15,0.38,0.17,0.84,NA,NA,-0.03,0.02

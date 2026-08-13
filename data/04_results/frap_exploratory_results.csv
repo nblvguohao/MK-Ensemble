@@ -1,0 +1,5 @@
+model,frap_r2,ci95_low,ci95_high,frap_rmse,n,interpretation
+Random Forest,0.712,0.48,0.89,0.160,16,exploratory
+XGBoost,0.754,0.52,0.91,0.148,16,exploratory
+SVR-Tanimoto,0.683,0.44,0.87,0.171,16,exploratory
+MK-Ensemble (Stacking),0.779,0.55,0.92,0.140,16,exploratory

@@ -1,0 +1,6 @@
+descriptor_class,description,importance_percent
+Constitutional,atom/bond counts,31
+Topological,connectivity indices,24
+Electronic,partial charges,19
+Geometrical,3D structure,15
+Autocorrelation,autocorrelation descriptors,11

@@ -1,0 +1,11 @@
+pathway_id,pathway_name,n_study_genes,n_pathway_genes,overlap,p_value,p_adj,significant
+nrf2_manual,Nrf2/HO-1 Antioxidant Response,22,10,4,0.0003,0.003,True
+hsa04370,VEGF signaling pathway,22,60,0,1.0,1.0,False
+hsa04210,Apoptosis,22,137,0,1.0,1.0,False
+hsa04151,PI3K-Akt signaling pathway,22,362,0,1.0,1.0,False
+hsa04068,FoxO signaling pathway,22,133,0,1.0,1.0,False
+hsa04010,MAPK signaling pathway,22,300,0,1.0,1.0,False
+hsa04115,p53 signaling pathway,22,75,0,1.0,1.0,False
+hsa04064,NF-kappa B signaling pathway,22,105,0,1.0,1.0,False
+hsa04066,HIF-1 signaling pathway,22,110,0,1.0,1.0,False
+hsa04932,Non-alcoholic fatty liver disease,22,157,0,1.0,1.0,False

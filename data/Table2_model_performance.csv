@@ -1,0 +1,15 @@
+Model,Features,Assay,R2,RMSE,MAE,Q2CV,Evaluation
+MK-Ensemble,Stacking,DPPH,0.846,0.154,0.121,0.831,5-fold nested CV
+RandomForest,Morgan+Mordred,DPPH,0.822,0.165,0.128,0.804,5-fold CV
+XGBoost,Morgan+Mordred,DPPH,0.805,0.172,0.135,0.791,5-fold CV
+Chemprop,MPNN,DPPH,0.778,0.184,0.142,0.763,5-fold CV
+SVR-Tanimoto,MACCS,DPPH,0.791,0.178,0.139,0.775,5-fold CV
+MK-Ensemble,Stacking,ABTS,0.920,0.089,0.068,0.907,5-fold nested CV
+RandomForest,Morgan+Mordred,ABTS,0.795,0.142,0.112,0.778,5-fold CV
+XGBoost,Morgan+Mordred,ABTS,0.842,0.125,0.094,0.829,5-fold CV
+Chemprop,MPNN,ABTS,0.818,0.134,0.105,0.801,5-fold CV
+SVR-Tanimoto,MACCS,ABTS,0.862,0.117,0.091,0.848,5-fold CV
+MK-Ensemble,Stacking,FRAP,0.779,0.140,0.120,NA,exploratory
+XGBoost,Morgan,FRAP,0.754,0.148,0.115,NA,exploratory
+RandomForest,Mordred,FRAP,0.712,0.160,0.126,NA,exploratory
+SVR-Tanimoto,MACCS,FRAP,0.683,0.171,0.134,NA,exploratory

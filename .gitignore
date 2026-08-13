@@ -1,0 +1,42 @@
+# Python bytecode and local environments
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+.venv/
+venv/
+env/
+
+# Jupyter and local analysis scratch files
+.ipynb_checkpoints/
+notebooks/
+revised_figures/
+tmp/
+
+# Model checkpoints, serialized features, and trainer logs
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.pkl
+*.pickle
+*.joblib
+trainer_logs/
+events.out.tfevents.*
+
+# Chemprop training outputs; keep only curated CSV/JSON result files
+external_validation/results/chemprop_output*/
+external_validation/results/**/checkpoints/
+external_validation/results/**/trainer_logs/
+external_validation/results/**/best.pt
+external_validation/results/bace_features.pkl
+
+# Generated archives and local binaries
+*.zip
+*.exe
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

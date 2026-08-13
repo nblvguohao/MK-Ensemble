@@ -1,0 +1,129 @@
+CID,compound_name,SMILES,pIC50,assay_type,source,split
+99474,Diosgenin,C[C@@H]1CC[C@@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC=C6[C@@]5(CC[C@@H](C6)O)C)C)C)OC1,4.007,DPPH,literature,train
+176233,Paris saponin VII,C[C@@H]1CC[C@@]2(OC1)O[C@H]1C[C@H]3[C@@H]4CC=C5C[C@@H](O[C@@H]6O[C@H](CO)[C@@H](O[C@@H]7O[C@@H](C)[C@H](O[C@@H]8O[C@@H](C)[C@H](O)[C@@H](O)[C@H]8O)[C@@H](O)[C@H]7O)[C@H](O)[C@H]6O[C@@H]6O[C@@H](C)[C@H](O)[C@@H](O)[C@H]6O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@@]1(O)[C@@H]2C,4.434,ABTS,literature,test
+441900,Yamogenin,C[C@H]1CC[C@@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC=C6[C@@]5(CC[C@@H](C6)O)C)C)C)OC1,3.949,DPPH,literature,train
+441900,Yamogenin,C[C@H]1CC[C@@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC=C6[C@@]5(CC[C@@H](C6)O)C)C)C)OC1,3.89,ABTS,literature,train
+441900,Yamogenin,C[C@H]1CC[C@@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC=C6[C@@]5(CC[C@@H](C6)O)C)C)C)OC1,3.965,FRAP,literature,train
+99516,Tigogenin,C[C@@H]1CC[C@@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@@H]6[C@@]5(CC[C@@H](C6)O)C)C)C)OC1,3.829,DPPH,literature,test
+99516,Tigogenin,C[C@@H]1CC[C@@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@@H]6[C@@]5(CC[C@@H](C6)O)C)C)C)OC1,3.782,ABTS,literature,test
+99516,Tigogenin,C[C@@H]1CC[C@@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@@H]6[C@@]5(CC[C@@H](C6)O)C)C)C)OC1,3.849,FRAP,literature,test
+91453,Hecogenin,C[C@@H]1CC[C@@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(C(=O)C[C@H]5[C@H]4CC[C@@H]6[C@@]5(CC[C@@H](C6)O)C)C)C)OC1,3.702,DPPH,literature,train
+91453,Hecogenin,C[C@@H]1CC[C@@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(C(=O)C[C@H]5[C@H]4CC[C@@H]6[C@@]5(CC[C@@H](C6)O)C)C)C)OC1,3.67,ABTS,literature,train
+91453,Hecogenin,C[C@@H]1CC[C@@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(C(=O)C[C@H]5[C@H]4CC[C@@H]6[C@@]5(CC[C@@H](C6)O)C)C)C)OC1,3.723,FRAP,literature,train
+441887,Gitogenin,C[C@@H]1CC[C@@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@@H]6[C@@]5(C[C@H]([C@@H](C6)O)O)C)C)C)OC1,3.764,DPPH,literature,test
+441887,Gitogenin,C[C@@H]1CC[C@@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@@H]6[C@@]5(C[C@H]([C@@H](C6)O)O)C)C)C)OC1,3.724,ABTS,literature,test
+441887,Gitogenin,C[C@@H]1CC[C@@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@@H]6[C@@]5(C[C@H]([C@@H](C6)O)O)C)C)C)OC1,3.78,FRAP,literature,test
+91439,Smilagenin,C[C@@H]1CC[C@@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@H]6[C@@]5(CC[C@@H](C6)O)C)C)C)OC1,3.877,DPPH,literature,train
+91439,Smilagenin,C[C@@H]1CC[C@@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@H]6[C@@]5(CC[C@@H](C6)O)C)C)C)OC1,3.829,ABTS,literature,train
+91439,Smilagenin,C[C@@H]1CC[C@@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@H]6[C@@]5(CC[C@@H](C6)O)C)C)C)OC1,3.895,FRAP,literature,train
+92095,Sarsasapogenin,C[C@H]1CC[C@@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@H]6[C@@]5(CC[C@@H](C6)O)C)C)C)OC1,3.801,DPPH,literature,train
+92095,Sarsasapogenin,C[C@H]1CC[C@@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@H]6[C@@]5(CC[C@@H](C6)O)C)C)C)OC1,3.819,FRAP,literature,train
+441893,Ruscogenin,C[C@@H]1CC[C@@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC=C6[C@@]5([C@@H](C[C@@H](C6)O)O)C)C)C)OC1,4.084,DPPH,literature,train
+441893,Ruscogenin,C[C@@H]1CC[C@@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC=C6[C@@]5([C@@H](C[C@@H](C6)O)O)C)C)C)OC1,4.052,ABTS,literature,train
+441893,Ruscogenin,C[C@@H]1CC[C@@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC=C6[C@@]5([C@@H](C[C@@H](C6)O)O)C)C)C)OC1,4.117,FRAP,literature,train
+99474,Diosgenin,C[C@@H]1CC[C@@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC=C6[C@@]5(CC[C@@H](C6)O)C)C)C)OC1,3.978,ABTS,literature,train
+176233,Paris saponin VII,C[C@@H]1CC[C@@]2(OC1)O[C@H]1C[C@H]3[C@@H]4CC=C5C[C@@H](O[C@@H]6O[C@H](CO)[C@@H](O[C@@H]7O[C@@H](C)[C@H](O[C@@H]8O[C@@H](C)[C@H](O)[C@@H](O)[C@H]8O)[C@@H](O)[C@H]7O)[C@H](O)[C@H]6O[C@@H]6O[C@@H](C)[C@H](O)[C@@H](O)[C@H]6O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@@]1(O)[C@@H]2C,4.462,FRAP,literature,test
+92095,Sarsasapogenin,C[C@H]1CC[C@@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC[C@H]6[C@@]5(CC[C@@H](C6)O)C)C)C)OC1,3.763,ABTS,literature,train
+176233,Paris saponin VII,C[C@@H]1CC[C@@]2(OC1)O[C@H]1C[C@H]3[C@@H]4CC=C5C[C@@H](O[C@@H]6O[C@H](CO)[C@@H](O[C@@H]7O[C@@H](C)[C@H](O[C@@H]8O[C@@H](C)[C@H](O)[C@@H](O)[C@H]8O)[C@@H](O)[C@H]7O)[C@H](O)[C@H]6O[C@@H]6O[C@@H](C)[C@H](O)[C@@H](O)[C@H]6O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@@]1(O)[C@@H]2C,4.396,DPPH,literature,test
+159861,Gracillin,C[C@@H]1CC[C@@]2(OC1)O[C@H]1C[C@H]3[C@@H]4CC=C5C[C@@H](O[C@@H]6O[C@H](CO)[C@@H](O)[C@H](O[C@@H]7O[C@H](CO)[C@@H](O)[C@H](O)[C@H]7O)[C@H]6O[C@@H]6O[C@@H](C)[C@H](O)[C@@H](O)[C@H]6O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@H]1[C@@H]2C,4.238,DPPH,literature,train
+99474,Diosgenin,C[C@@H]1CC[C@@]2([C@H]([C@H]3[C@@H](O2)C[C@@H]4[C@@]3(CC[C@H]5[C@H]4CC=C6[C@@]5(CC[C@@H](C6)O)C)C)C)OC1,4.054,FRAP,literature,train
+10417550,Paris saponin VI,C[C@@H]1CC[C@@]2(OC1)O[C@H]1C[C@H]3[C@@H]4CC=C5C[C@@H](O[C@@H]6O[C@H](CO)[C@@H](O)[C@H](O)[C@H]6O[C@@H]6O[C@@H](C)[C@H](O)[C@@H](O)[C@H]6O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@@]1(O)[C@@H]2C,4.384,FRAP,literature,train
+119245,Dioscin,C[C@@H]1CC[C@@]2(OC1)O[C@H]1C[C@H]3[C@@H]4CC=C5C[C@@H](O[C@@H]6O[C@H](CO)[C@@H](O[C@@H]7O[C@@H](C)[C@H](O)[C@@H](O)[C@H]7O)[C@H](O)[C@H]6O[C@@H]6O[C@@H](C)[C@H](O)[C@@H](O)[C@H]6O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@H]1[C@@H]2C,4.344,DPPH,literature,train
+119245,Dioscin,C[C@@H]1CC[C@@]2(OC1)O[C@H]1C[C@H]3[C@@H]4CC=C5C[C@@H](O[C@@H]6O[C@H](CO)[C@@H](O[C@@H]7O[C@@H](C)[C@H](O)[C@@H](O)[C@H]7O)[C@H](O)[C@H]6O[C@@H]6O[C@@H](C)[C@H](O)[C@@H](O)[C@H]6O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@H]1[C@@H]2C,4.415,FRAP,literature,train
+441891,Protodioscin,C[C@H](CC[C@@]1(O)O[C@H]2C[C@H]3[C@@H]4CC=C5C[C@@H](O[C@@H]6O[C@H](CO)[C@@H](O[C@@H]7O[C@@H](C)[C@H](O)[C@@H](O)[C@H]7O)[C@H](O)[C@H]6O[C@@H]6O[C@@H](C)[C@H](O)[C@@H](O)[C@H]6O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@H]2[C@@H]1C)CO[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O,4.485,DPPH,literature,test
+441891,Protodioscin,C[C@H](CC[C@@]1(O)O[C@H]2C[C@H]3[C@@H]4CC=C5C[C@@H](O[C@@H]6O[C@H](CO)[C@@H](O[C@@H]7O[C@@H](C)[C@H](O)[C@@H](O)[C@H]7O)[C@H](O)[C@H]6O[C@@H]6O[C@@H](C)[C@H](O)[C@@H](O)[C@H]6O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@H]2[C@@H]1C)CO[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O,4.521,ABTS,literature,test
+441891,Protodioscin,C[C@H](CC[C@@]1(O)O[C@H]2C[C@H]3[C@@H]4CC=C5C[C@@H](O[C@@H]6O[C@H](CO)[C@@H](O[C@@H]7O[C@@H](C)[C@H](O)[C@@H](O)[C@H]7O)[C@H](O)[C@H]6O[C@@H]6O[C@@H](C)[C@H](O)[C@@H](O)[C@H]6O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@H]2[C@@H]1C)CO[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O,4.539,FRAP,literature,test
+441892,Protogracillin,C[C@H](CC[C@@]1(O)O[C@H]2C[C@H]3[C@@H]4CC=C5C[C@@H](O[C@@H]6O[C@H](CO)[C@@H](O)[C@H](O[C@@H]7O[C@H](CO)[C@@H](O)[C@H](O)[C@H]7O)[C@H]6O[C@@H]6O[C@@H](C)[C@H](O)[C@@H](O)[C@H]6O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@H]2[C@@H]1C)CO[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O,4.165,DPPH,literature,train
+441892,Protogracillin,C[C@H](CC[C@@]1(O)O[C@H]2C[C@H]3[C@@H]4CC=C5C[C@@H](O[C@@H]6O[C@H](CO)[C@@H](O)[C@H](O[C@@H]7O[C@H](CO)[C@@H](O)[C@H](O)[C@H]7O)[C@H]6O[C@@H]6O[C@@H](C)[C@H](O)[C@@H](O)[C@H]6O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@H]2[C@@H]1C)CO[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O,4.13,ABTS,literature,train
+441892,Protogracillin,C[C@H](CC[C@@]1(O)O[C@H]2C[C@H]3[C@@H]4CC=C5C[C@@H](O[C@@H]6O[C@H](CO)[C@@H](O)[C@H](O[C@@H]7O[C@H](CO)[C@@H](O)[C@H](O)[C@H]7O)[C@H]6O[C@@H]6O[C@@H](C)[C@H](O)[C@@H](O)[C@H]6O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@H]2[C@@H]1C)CO[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O,4.207,FRAP,literature,train
+119245,Dioscin,C[C@@H]1CC[C@@]2(OC1)O[C@H]1C[C@H]3[C@@H]4CC=C5C[C@@H](O[C@@H]6O[C@H](CO)[C@@H](O[C@@H]7O[C@@H](C)[C@H](O)[C@@H](O)[C@H]7O)[C@H](O)[C@H]6O[C@@H]6O[C@@H](C)[C@H](O)[C@@H](O)[C@H]6O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@H]1[C@@H]2C,4.379,ABTS,literature,train
+159861,Gracillin,C[C@@H]1CC[C@@]2(OC1)O[C@H]1C[C@H]3[C@@H]4CC=C5C[C@@H](O[C@@H]6O[C@H](CO)[C@@H](O)[C@H](O[C@@H]7O[C@H](CO)[C@@H](O)[C@H](O)[C@H]7O)[C@H]6O[C@@H]6O[C@@H](C)[C@H](O)[C@@H](O)[C@H]6O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@H]1[C@@H]2C,4.281,ABTS,literature,train
+21603986,Paris saponin II,C[C@@H]1CC[C@@]2(OC1)O[C@H]1C[C@H]3[C@@H]4CC=C5C[C@@H](O[C@@H]6O[C@H](CO)[C@@H](O[C@@H]7O[C@@H](C)[C@H](O[C@@H]8O[C@@H](C)[C@H](O)[C@@H](O)[C@H]8O)[C@@H](O)[C@H]7O)[C@H](O)[C@H]6O[C@@H]6O[C@@H](C)[C@H](O)[C@@H](O)[C@H]6O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@H]1[C@@H]2C,4.415,DPPH,literature,train
+159861,Gracillin,C[C@@H]1CC[C@@]2(OC1)O[C@H]1C[C@H]3[C@@H]4CC=C5C[C@@H](O[C@@H]6O[C@H](CO)[C@@H](O)[C@H](O[C@@H]7O[C@H](CO)[C@@H](O)[C@H](O)[C@H]7O)[C@H]6O[C@@H]6O[C@@H](C)[C@H](O)[C@@H](O)[C@H]6O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@H]1[C@@H]2C,4.305,FRAP,literature,train
+10417550,Paris saponin VI,C[C@@H]1CC[C@@]2(OC1)O[C@H]1C[C@H]3[C@@H]4CC=C5C[C@@H](O[C@@H]6O[C@H](CO)[C@@H](O)[C@H](O)[C@H]6O[C@@H]6O[C@@H](C)[C@H](O)[C@@H](O)[C@H]6O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@@]1(O)[C@@H]2C,4.312,DPPH,literature,train
+10417550,Paris saponin VI,C[C@@H]1CC[C@@]2(OC1)O[C@H]1C[C@H]3[C@@H]4CC=C5C[C@@H](O[C@@H]6O[C@H](CO)[C@@H](O)[C@H](O)[C@H]6O[C@@H]6O[C@@H](C)[C@H](O)[C@@H](O)[C@H]6O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@@]1(O)[C@@H]2C,4.356,ABTS,literature,train
+21603986,Paris saponin II,C[C@@H]1CC[C@@]2(OC1)O[C@H]1C[C@H]3[C@@H]4CC=C5C[C@@H](O[C@@H]6O[C@H](CO)[C@@H](O[C@@H]7O[C@@H](C)[C@H](O[C@@H]8O[C@@H](C)[C@H](O)[C@@H](O)[C@H]8O)[C@@H](O)[C@H]7O)[C@H](O)[C@H]6O[C@@H]6O[C@@H](C)[C@H](O)[C@@H](O)[C@H]6O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@H]1[C@@H]2C,4.466,ABTS,literature,train
+21603986,Paris saponin II,C[C@@H]1CC[C@@]2(OC1)O[C@H]1C[C@H]3[C@@H]4CC=C5C[C@@H](O[C@@H]6O[C@H](CO)[C@@H](O[C@@H]7O[C@@H](C)[C@H](O[C@@H]8O[C@@H](C)[C@H](O)[C@@H](O)[C@H]8O)[C@@H](O)[C@H]7O)[C@H](O)[C@H]6O[C@@H]6O[C@@H](C)[C@H](O)[C@@H](O)[C@H]6O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@H]1[C@@H]2C,4.498,FRAP,literature,train
+11018329,Paris saponin I,C[C@@H]1CC[C@@]2(OC1)O[C@H]1C[C@H]3[C@@H]4CC=C5C[C@@H](O[C@@H]6O[C@H](CO)[C@@H](O[C@@H]7O[C@@H](CO)[C@H](O)[C@H]7O)[C@H](O)[C@H]6O[C@@H]6O[C@@H](C)[C@H](O)[C@@H](O)[C@H]6O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@H]1[C@@H]2C,4.668,FRAP,literature,train
+11018329,Paris saponin I,C[C@@H]1CC[C@@]2(OC1)O[C@H]1C[C@H]3[C@@H]4CC=C5C[C@@H](O[C@@H]6O[C@H](CO)[C@@H](O[C@@H]7O[C@@H](CO)[C@H](O)[C@H]7O)[C@H](O)[C@H]6O[C@@H]6O[C@@H](C)[C@H](O)[C@@H](O)[C@H]6O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@H]1[C@@H]2C,4.625,ABTS,literature,train
+11018329,Paris saponin I,C[C@@H]1CC[C@@]2(OC1)O[C@H]1C[C@H]3[C@@H]4CC=C5C[C@@H](O[C@@H]6O[C@H](CO)[C@@H](O[C@@H]7O[C@@H](CO)[C@H](O)[C@H]7O)[C@H](O)[C@H]6O[C@@H]6O[C@@H](C)[C@H](O)[C@@H](O)[C@H]6O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@H]1[C@@H]2C,4.58,DPPH,literature,train
+CHEMBL205444,CHEMBL205444,COc1cc(/C=C/c2cc3oc(-c4ccc(O)c(O)c4)c(C(C)=O)c3c(=O)o2)ccc1O,4.91,ABTS,ChEMBL,val
+CHEMBL205945,CHEMBL205945,CC1=CC(=O)[C@H](c2c(O)cc(/C=C/c3ccc(O)c(O)c3)oc2=O)[C@@H](c2ccc(O)c(O)c2)O1,6.1,ABTS,ChEMBL,test
+CHEMBL204677,CHEMBL204677,COc1cc(/C=C/c2cc(O)c([C@H]3C(=O)C=C(C)O[C@@H]3c3ccc(O)c(O)c3)c(=O)o2)ccc1O,5.82,ABTS,ChEMBL,test
+CHEMBL145,CHEMBL145,O=C(O)/C=C/c1ccc(O)c(O)c1,5.55,ABTS,ChEMBL,val
+CHEMBL205356,CHEMBL205356,CC(=O)c1c(-c2ccc(O)c(O)c2)oc2cc(/C=C/c3ccc(O)c(O)c3)oc(=O)c12,5.11,ABTS,ChEMBL,val
+CHEMBL37537,CHEMBL37537,O=C(O)c1ccc(O)c(O)c1,4.57,DPPH,ChEMBL,val
+CHEMBL222021,CHEMBL222021,O=Cc1ccc(O)c(O)c1,4.53,DPPH,ChEMBL,val
+CHEMBL374047,CHEMBL374047,COc1cc(CCc2cc(OC)c(O)c(OC)c2)ccc1O,4.84,DPPH,ChEMBL,train
+CHEMBL219065,CHEMBL219065,COc1cc(CC(O)c2cc(OC)c(O)c(OC)c2)ccc1O,4.7,DPPH,ChEMBL,train
+CHEMBL219553,CHEMBL219553,COc1cc(O)cc(CCc2ccc(O)c(OC)c2)c1,4.25,DPPH,ChEMBL,train
+CHEMBL216941,CHEMBL216941,COc1cc(O)cc2c1-c1c(O)ccc(O)c1C2=O,4.79,DPPH,ChEMBL,train
+CHEMBL146,CHEMBL146,Cc1cc(C(C)(C)C)c(O)c(C(C)(C)C)c1,4.04,DPPH,ChEMBL,val
+CHEMBL288114,CHEMBL288114,O=C(O)c1cc(O)c(O)c(O)c1,5.22,DPPH,ChEMBL,val
+CHEMBL65675,CHEMBL65675,COC(=O)c1cc(O)c(O)c(O)c1,5.14,DPPH,ChEMBL,val
+CHEMBL1414,CHEMBL1414,COc1cc(C(=O)O)cc(OC)c1O,5.14,DPPH,ChEMBL,val
+CHEMBL205945,CHEMBL205945,CC1=CC(=O)[C@H](c2c(O)cc(/C=C/c3ccc(O)c(O)c3)oc2=O)[C@@H](c2ccc(O)c(O)c2)O1,5.47,DPPH,ChEMBL,test
+CHEMBL37537,CHEMBL37537,O=C(O)c1ccc(O)c(O)c1,4.8,ABTS,ChEMBL,val
+CHEMBL204677,CHEMBL204677,COc1cc(/C=C/c2cc(O)c([C@H]3C(=O)C=C(C)O[C@@H]3c3ccc(O)c(O)c3)c(=O)o2)ccc1O,4.73,DPPH,ChEMBL,test
+CHEMBL218276,CHEMBL218276,COC1Oc2cc(/C=C/c3ccc(O)c(O)c3)oc(=O)c2-c2cc(O)c(O)cc21,4.9,ABTS,ChEMBL,train
+CHEMBL226020,CHEMBL226020,COC(=O)/C(=C\c1ccc(O)c(O)c1)c1c(O)cc(/C=C/c2ccc(O)c(O)c2)oc1=O,4.96,ABTS,ChEMBL,train
+CHEMBL222021,CHEMBL222021,O=Cc1ccc(O)c(O)c1,5.3,ABTS,ChEMBL,val
+CHEMBL253011,CHEMBL253011,CCCC(C)Oc1cc(/C=C/C(=O)NCCCc2ccc(C)c(C)c2)cc(OC(C)CCC)c1O,4.58,ABTS,ChEMBL,train
+CHEMBL199304,CHEMBL199304,C=CC(C)(C)c1c(OC)cc(O)c2c(=O)c3ccc(O)c(O)c3oc12,4.5,DPPH,ChEMBL,train
+CHEMBL480863,CHEMBL480863,COc1cc(/C=C/c2cc3c(c(=O)o2)/C(=C/c2ccc(O)c(O)c2)C(C)(OC)O3)ccc1O,4.88,ABTS,ChEMBL,train
+CHEMBL517681,CHEMBL517681,COc1cc(/C=C/c2cc3c(c(=O)o2)C2(OC(C)=CC2=O)C(c2ccc(O)c(O)c2)O3)ccc1O,4.97,ABTS,ChEMBL,train
+CHEMBL254070,CHEMBL254070,COc1cc(/C=C/C(=O)NCc2cc(C(C)(C)C)c(O)c(C(C)(C)C)c2)cc(OC)c1O,4.95,ABTS,ChEMBL,train
+CHEMBL400555,CHEMBL400555,COc1cc(/C=C/C(=O)NCCc2cc(C(C)(C)C)c(O)c(C(C)(C)C)c2)cc(OC)c1O,4.81,ABTS,ChEMBL,train
+CHEMBL253871,CHEMBL253871,CCCCCCOc1cc(/C=C/C(=O)NCc2cc(C(C)(C)C)c(O)c(C(C)(C)C)c2)cc(OCCCCCC)c1O,4.63,ABTS,ChEMBL,train
+CHEMBL254073,CHEMBL254073,CCCCCCOc1cc(/C=C/C(=O)NCCc2cc(C(C)(C)C)c(O)c(C(C)(C)C)c2)cc(OCCCCCC)c1O,4.56,ABTS,ChEMBL,train
+CHEMBL226019,CHEMBL226019,CC(=O)/C(=C\c1ccc(O)c(O)c1)c1c(O)cc(/C=C/c2ccc(O)c(O)c2)oc1=O,4.96,ABTS,ChEMBL,train
+CHEMBL218423,CHEMBL218423,O=c1oc2cc(/C=C/c3ccc(O)c(O)c3)oc(=O)c2c2cc(O)c(O)cc12,4.86,ABTS,ChEMBL,train
+CHEMBL388592,CHEMBL388592,CC(=O)/C=C(O)/C(=C\c1ccc(O)c(O)c1)c1c(O)cc(/C=C/c2ccc(O)c(O)c2)oc1=O,4.85,ABTS,ChEMBL,train
+CHEMBL224901,CHEMBL224901,COc1ccc2[nH]cc(CCCCCCCCCCCCCCCCO)c2c1,4.47,ABTS,ChEMBL,train
+CHEMBL224902,CHEMBL224902,COc1ccc2c(CCCCCCCCCCCCCCCCO)c[nH]c2c1,4.47,ABTS,ChEMBL,train
+CHEMBL375796,CHEMBL375796,COc1cccc2c(CCCCCCCCCCCCCCCCO)c[nH]c12,4.58,ABTS,ChEMBL,train
+CHEMBL225652,CHEMBL225652,COc1ccc2[nH]cc(CCCCCCCCCCCCCCCCO)c2c1OC,4.77,ABTS,ChEMBL,train
+CHEMBL221994,CHEMBL221994,COc1cc2[nH]cc(CCCCCCCCCCCCCCCCO)c2cc1OC,4.47,ABTS,ChEMBL,train
+CHEMBL448733,CHEMBL448733,COc1cc(/C=C/c2cc3c(c(=O)o2)-c2cc(O)c(O)cc2C(OC)O3)ccc1O,5.06,ABTS,ChEMBL,train
+CHEMBL145,CHEMBL145,O=C(O)/C=C/c1ccc(O)c(O)c1,4.5,DPPH,ChEMBL,val
+CHEMBL344480,CHEMBL344480,Oc1cc(O)cc(/C=C/c2ccc(O)c(CCF)c2)c1,4.32,DPPH,ChEMBL,train
+CHEMBL200640,CHEMBL200640,C=CC(C)(C)c1c(O)cc(O)c2c(=O)c3c(CC=C(C)C)c(O)c(O)cc3oc12,4.67,DPPH,ChEMBL,train
+CHEMBL197916,CHEMBL197916,C=CC(C)(C)c1c(O)cc2oc3c(CC=C(C)C)c(O)c(O)cc3c(=O)c2c1O,4.86,DPPH,ChEMBL,train
+CHEMBL140815,CHEMBL140815,Oc1cc(O)cc(/C=C/c2ccc(O)c(I)c2)c1,4.13,DPPH,ChEMBL,train
+CHEMBL142488,CHEMBL142488,COc1cc(/C=C/c2ccc(O)c(CCF)c2)cc(OC)c1,4.16,DPPH,ChEMBL,train
+CHEMBL342789,CHEMBL342789,Oc1ccc(/C=C/c2cc(O)cc(O)c2Br)cc1,4.45,DPPH,ChEMBL,train
+CHEMBL422832,CHEMBL422832,Oc1cc(O)cc(/C=C/c2ccc(O)c(Br)c2)c1,4.29,DPPH,ChEMBL,train
+CHEMBL2304274,CHEMBL2304274,COC(=O)C[C@H](c1ccc(O)c(O)c1)c1c(O)cc(O)c2c1O[C@H](c1ccc(O)c(O)c1)[C@H](O)C2,4.54,DPPH,ChEMBL,train
+CHEMBL136126,CHEMBL136126,Cc1c(C)c2c(c(C)c1O)CCC(C)(C(=O)Nc1ccccc1NC(=O)CCCCC1CCSS1)O2,4.28,DPPH,ChEMBL,train
+CHEMBL341776,CHEMBL341776,Cc1c(C)c2c(c(C)c1O)CCC(C)(C(=O)Nc1ccc(N)cc1)O2,4.47,DPPH,ChEMBL,train
+CHEMBL135502,CHEMBL135502,Cc1c(C)c2c(c(C)c1O)CCC(C)(C(=O)Nc1ccc3c(c1)Cc1cc(NC(=O)CCCCC4CCSS4)ccc1-3)O2,4.7,DPPH,ChEMBL,train
+CHEMBL135481,CHEMBL135481,Cc1c(C)c2c(c(C)c1O)CCC(C)(C(=O)NCCNC(=O)CCCCC1CCSS1)O2,4.36,DPPH,ChEMBL,train
+CHEMBL134643,CHEMBL134643,Cc1c(C)c2c(c(C)c1O)CCC(C)(C(=O)N1CCN(C(=O)CCCCC3CCSS3)CC1)O2,4.3,DPPH,ChEMBL,test
+CHEMBL334957,CHEMBL334957,Cc1c(C)c2c(c(C)c1O)CCC(C)(C(=O)NCCN)O2,4.24,DPPH,ChEMBL,train
+CHEMBL153,CHEMBL153,Cc1c(C)c2c(c(C)c1O)CCC(C)(C(=O)O)O2,4.35,DPPH,ChEMBL,train
+CHEMBL312901,CHEMBL312901,Cc1ccc(CCCNC(=O)/C=C/c2ccc(O)c(O)c2)cc1C,4.46,DPPH,ChEMBL,train
+CHEMBL87809,CHEMBL87809,COc1cc(/C=C/C(=O)NCCCc2ccc(C)c(C)c2)cc(OC)c1O,4.05,DPPH,ChEMBL,train
+CHEMBL86670,CHEMBL86670,Cc1ccc(CCCNC(=O)Cc2cc(O)c(O)c(O)c2)cc1C,4.67,DPPH,ChEMBL,train
+CHEMBL90392,CHEMBL90392,COc1cc(CC(=O)NCCCc2ccc(C)c(C)c2)cc(OC)c1O,4.3,DPPH,ChEMBL,train
+CHEMBL89729,CHEMBL89729,COc1cc(/C=C/C(=O)NCCCc2ccc(C)c(C)c2)ccc1O,4.08,DPPH,ChEMBL,train
+CHEMBL151,CHEMBL151,O=c1cc(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12,4.98,DPPH,ChEMBL,test
+CHEMBL196,CHEMBL196,O=C1O[C@H]([C@@H](O)CO)C(O)=C1O,4.58,DPPH,ChEMBL,train
+CHEMBL583912,CHEMBL583912,Oc1cc(O)c2c(c1)O[C@H](c1ccc(O)c(O)c1)[C@H](O)C2,4.8,DPPH,ChEMBL,train
+CHEMBL178383,CHEMBL178383,Oc1ccc(/C=C/c2cc(/C=C/c3ccc(O)cc3)[nH]n2)cc1,4.49,DPPH,ChEMBL,train
+CHEMBL371024,CHEMBL371024,CC(C)=CCc1c(O)c(O)cc2c(=O)c3c(O)c4c(cc3oc12)OC(C)C4(C)C,4.98,DPPH,ChEMBL,train
+CHEMBL370126,CHEMBL370126,C=CC(C)(C)c1c(O)c(CC=C(C)C)c2oc3cc(O)c(O)cc3c(=O)c2c1O,4.81,DPPH,ChEMBL,train
+CHEMBL372718,CHEMBL372718,CCCNC(=O)C1CCc2cc(O)c(OC)cc2O1,4.37,DPPH,ChEMBL,train
+CHEMBL190995,CHEMBL190995,COc1cc2c(cc1O)CCC(C(=O)O)O2,4.78,DPPH,ChEMBL,train
+CHEMBL189900,CHEMBL189900,CCCCNC(=O)C1CCc2cc(O)c(OC)cc2O1,4.61,DPPH,ChEMBL,train
+CHEMBL190191,CHEMBL190191,CCCCNC(=O)C1CC(=O)c2cc(O)c(OC)cc2O1,4.18,DPPH,ChEMBL,train
+CHEMBL190287,CHEMBL190287,CCCNC(=O)C1CC(=O)c2cc(O)c(OC)cc2O1,4.09,DPPH,ChEMBL,train
+CHEMBL361141,CHEMBL361141,COc1cc(/C=C/c2cc(/C=C/c3ccc(O)cc3)[nH]n2)ccc1O,4.81,DPPH,ChEMBL,train
+CHEMBL311498,CHEMBL311498,Oc1cc(O)c2c(c1)O[C@H](c1ccc(O)c(O)c1)[C@@H](O)C2,4.7,DPPH,ChEMBL,train
+CHEMBL180239,CHEMBL180239,COc1cc(/C=C/c2cc(/C=C/c3ccc(O)c(OC)c3)[nH]n2)ccc1O,5.01,DPPH,ChEMBL,train
+CHEMBL105350,CHEMBL105350,O=C(/C=C/c1ccc(O)cc1)CC(=O)/C=C/c1ccc(O)cc1,4.44,DPPH,ChEMBL,train
+CHEMBL179512,CHEMBL179512,COc1cc(/C=C/C(O)=C/C(=O)/C=C/c2ccc(O)cc2)ccc1O,4.67,DPPH,ChEMBL,train
+CHEMBL290916,CHEMBL290916,CC1=NN(c2ccccc2)C(=O)C1,4.53,DPPH,ChEMBL,test
+CHEMBL358769,CHEMBL358769,OC[C@H]1O[C@@H](Oc2cc(O)cc(/C=C/c3ccc(O)c(O)c3)c2)[C@H](O)[C@@H](O)[C@@H]1O,4.51,DPPH,ChEMBL,train
+CHEMBL165,CHEMBL165,Oc1ccc(/C=C/c2cc(O)cc(O)c2)cc1,4.13,DPPH,ChEMBL,train
+CHEMBL69863,CHEMBL69863,Oc1cc(O)cc(/C=C/c2ccc(O)c(O)c2)c1,4.54,DPPH,ChEMBL,train
+CHEMBL488197,CHEMBL488197,COC1(CC(C)=O)Oc2cc(/C=C/c3ccc(O)c(O)c3)oc(=O)c2/C1=C/c1ccc(O)c(O)c1,4.94,ABTS,ChEMBL,train

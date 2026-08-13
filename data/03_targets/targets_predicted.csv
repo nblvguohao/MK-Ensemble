@@ -1,0 +1,146 @@
+compound,target_gene,target_name,source
+Diosgenin,AKT1,RAC-alpha serine/threonine-protein kinase,literature
+Diosgenin,TP53,Cellular tumor antigen p53,literature
+Diosgenin,TNF,Tumor necrosis factor,literature
+Diosgenin,EGFR,Epidermal growth factor receptor,literature
+Diosgenin,ESR1,Estrogen receptor alpha,literature
+Diosgenin,NR3C1,Glucocorticoid receptor,literature
+Diosgenin,PTGS2,Prostaglandin G/H synthase 2 (COX-2),literature
+Diosgenin,NF2,Merlin,literature
+Diosgenin,CASP3,Caspase-3,literature
+Diosgenin,BCL2,Apoptosis regulator Bcl-2,literature
+Diosgenin,VEGFA,Vascular endothelial growth factor A,literature
+Diosgenin,MMP9,Matrix metalloproteinase-9,literature
+Diosgenin,MAPK1,Mitogen-activated protein kinase 1 (ERK2),literature
+Diosgenin,PIK3CA,PI3-kinase catalytic subunit alpha,literature
+Yamogenin,AKT1,RAC-alpha serine/threonine-protein kinase,literature
+Yamogenin,TP53,Cellular tumor antigen p53,literature
+Yamogenin,TNF,Tumor necrosis factor,literature
+Yamogenin,ESR1,Estrogen receptor alpha,literature
+Yamogenin,NR3C1,Glucocorticoid receptor,literature
+Yamogenin,PTGS2,Prostaglandin G/H synthase 2 (COX-2),literature
+Yamogenin,CASP3,Caspase-3,literature
+Tigogenin,AKT1,RAC-alpha serine/threonine-protein kinase,literature
+Tigogenin,TP53,Cellular tumor antigen p53,literature
+Tigogenin,TNF,Tumor necrosis factor,literature
+Tigogenin,ESR1,Estrogen receptor alpha,literature
+Tigogenin,PTGS2,Prostaglandin G/H synthase 2 (COX-2),literature
+Tigogenin,CASP3,Caspase-3,literature
+Tigogenin,MAPK1,Mitogen-activated protein kinase 1 (ERK2),literature
+Hecogenin,AKT1,RAC-alpha serine/threonine-protein kinase,literature
+Hecogenin,TP53,Cellular tumor antigen p53,literature
+Hecogenin,TNF,Tumor necrosis factor,literature
+Hecogenin,EGFR,Epidermal growth factor receptor,literature
+Hecogenin,PTGS2,Prostaglandin G/H synthase 2 (COX-2),literature
+Hecogenin,NF2,Merlin,literature
+Hecogenin,CASP3,Caspase-3,literature
+Hecogenin,MAPK1,Mitogen-activated protein kinase 1 (ERK2),literature
+Gitogenin,AKT1,RAC-alpha serine/threonine-protein kinase,literature
+Gitogenin,TP53,Cellular tumor antigen p53,literature
+Gitogenin,TNF,Tumor necrosis factor,literature
+Gitogenin,ESR1,Estrogen receptor alpha,literature
+Gitogenin,NR3C1,Glucocorticoid receptor,literature
+Gitogenin,PTGS2,Prostaglandin G/H synthase 2 (COX-2),literature
+Smilagenin,AKT1,RAC-alpha serine/threonine-protein kinase,literature
+Smilagenin,TP53,Cellular tumor antigen p53,literature
+Smilagenin,TNF,Tumor necrosis factor,literature
+Smilagenin,PTGS2,Prostaglandin G/H synthase 2 (COX-2),literature
+Smilagenin,CASP3,Caspase-3,literature
+Sarsasapogenin,AKT1,RAC-alpha serine/threonine-protein kinase,literature
+Sarsasapogenin,TP53,Cellular tumor antigen p53,literature
+Sarsasapogenin,TNF,Tumor necrosis factor,literature
+Sarsasapogenin,PTGS2,Prostaglandin G/H synthase 2 (COX-2),literature
+Sarsasapogenin,CASP3,Caspase-3,literature
+Sarsasapogenin,MAPK1,Mitogen-activated protein kinase 1 (ERK2),literature
+Sarsasapogenin,EGFR,Epidermal growth factor receptor,literature
+Ruscogenin,AKT1,RAC-alpha serine/threonine-protein kinase,literature
+Ruscogenin,TP53,Cellular tumor antigen p53,literature
+Ruscogenin,TNF,Tumor necrosis factor,literature
+Ruscogenin,VEGFA,Vascular endothelial growth factor A,literature
+Ruscogenin,MMP9,Matrix metalloproteinase-9,literature
+Ruscogenin,PTGS2,Prostaglandin G/H synthase 2 (COX-2),literature
+Ruscogenin,NF2,Merlin,literature
+Ruscogenin,CASP3,Caspase-3,literature
+Ruscogenin,MAPK1,Mitogen-activated protein kinase 1 (ERK2),literature
+Ruscogenin,PIK3CA,PI3-kinase catalytic subunit alpha,literature
+Ruscogenin,EGFR,Epidermal growth factor receptor,literature
+Dioscin,AKT1,RAC-alpha serine/threonine-protein kinase,literature
+Dioscin,TP53,Cellular tumor antigen p53,literature
+Dioscin,TNF,Tumor necrosis factor,literature
+Dioscin,EGFR,Epidermal growth factor receptor,literature
+Dioscin,ESR1,Estrogen receptor alpha,literature
+Dioscin,PTGS2,Prostaglandin G/H synthase 2 (COX-2),literature
+Dioscin,NF2,Merlin,literature
+Dioscin,CASP3,Caspase-3,literature
+Dioscin,BCL2,Apoptosis regulator Bcl-2,literature
+Dioscin,VEGFA,Vascular endothelial growth factor A,literature
+Dioscin,MMP9,Matrix metalloproteinase-9,literature
+Dioscin,MAPK1,Mitogen-activated protein kinase 1 (ERK2),literature
+Dioscin,PIK3CA,PI3-kinase catalytic subunit alpha,literature
+Dioscin,MTOR,Serine/threonine-protein kinase mTOR,literature
+Dioscin,STAT3,Signal transducer STAT3,literature
+Dioscin,NFE2L2,Nuclear factor erythroid 2-related factor 2 (Nrf2),literature
+Dioscin,KEAP1,Kelch-like ECH-associated protein 1,literature
+Dioscin,IKBKB,Inhibitor of nuclear factor kappa-B kinase subunit beta (IKKβ),literature
+Gracillin,AKT1,RAC-alpha serine/threonine-protein kinase,literature
+Gracillin,TP53,Cellular tumor antigen p53,literature
+Gracillin,TNF,Tumor necrosis factor,literature
+Gracillin,EGFR,Epidermal growth factor receptor,literature
+Gracillin,ESR1,Estrogen receptor alpha,literature
+Gracillin,PTGS2,Prostaglandin G/H synthase 2 (COX-2),literature
+Gracillin,CASP3,Caspase-3,literature
+Gracillin,MAPK1,Mitogen-activated protein kinase 1 (ERK2),literature
+Protodioscin,AKT1,RAC-alpha serine/threonine-protein kinase,literature
+Protodioscin,TP53,Cellular tumor antigen p53,literature
+Protodioscin,TNF,Tumor necrosis factor,literature
+Protodioscin,EGFR,Epidermal growth factor receptor,literature
+Protodioscin,PTGS2,Prostaglandin G/H synthase 2 (COX-2),literature
+Protodioscin,CASP3,Caspase-3,literature
+Protodioscin,MAPK1,Mitogen-activated protein kinase 1 (ERK2),literature
+Protodioscin,NFE2L2,Nuclear factor erythroid 2-related factor 2 (Nrf2),literature
+Protodioscin,IKBKB,Inhibitor of nuclear factor kappa-B kinase subunit beta (IKKβ),literature
+Protodioscin,STAT3,Signal transducer STAT3,literature
+Protogracillin,AKT1,RAC-alpha serine/threonine-protein kinase,literature
+Protogracillin,TP53,Cellular tumor antigen p53,literature
+Protogracillin,TNF,Tumor necrosis factor,literature
+Protogracillin,EGFR,Epidermal growth factor receptor,literature
+Protogracillin,PTGS2,Prostaglandin G/H synthase 2 (COX-2),literature
+Protogracillin,CASP3,Caspase-3,literature
+Protogracillin,MAPK1,Mitogen-activated protein kinase 1 (ERK2),literature
+Paris saponin I,AKT1,RAC-alpha serine/threonine-protein kinase,literature
+Paris saponin I,TP53,Cellular tumor antigen p53,literature
+Paris saponin I,TNF,Tumor necrosis factor,literature
+Paris saponin I,CASP3,Caspase-3,literature
+Paris saponin I,CASP9,Caspase-9,literature
+Paris saponin I,BCL2,Apoptosis regulator Bcl-2,literature
+Paris saponin I,MAPK1,Mitogen-activated protein kinase 1 (ERK2),literature
+Paris saponin I,PIK3CA,PI3-kinase catalytic subunit alpha,literature
+Paris saponin I,MTOR,Serine/threonine-protein kinase mTOR,literature
+Paris saponin I,STAT3,Signal transducer STAT3,literature
+Paris saponin II,AKT1,RAC-alpha serine/threonine-protein kinase,literature
+Paris saponin II,TP53,Cellular tumor antigen p53,literature
+Paris saponin II,TNF,Tumor necrosis factor,literature
+Paris saponin II,CASP3,Caspase-3,literature
+Paris saponin II,BCL2,Apoptosis regulator Bcl-2,literature
+Paris saponin II,MAPK1,Mitogen-activated protein kinase 1 (ERK2),literature
+Paris saponin II,STAT3,Signal transducer STAT3,literature
+Paris saponin VI,AKT1,RAC-alpha serine/threonine-protein kinase,literature
+Paris saponin VI,TP53,Cellular tumor antigen p53,literature
+Paris saponin VI,TNF,Tumor necrosis factor,literature
+Paris saponin VI,CASP3,Caspase-3,literature
+Paris saponin VI,CASP9,Caspase-9,literature
+Paris saponin VI,BCL2,Apoptosis regulator Bcl-2,literature
+Paris saponin VI,MAPK1,Mitogen-activated protein kinase 1 (ERK2),literature
+Paris saponin VI,NFE2L2,Nuclear factor erythroid 2-related factor 2 (Nrf2),literature
+Paris saponin VI,KEAP1,Kelch-like ECH-associated protein 1,literature
+Paris saponin VI,NQO1,NAD(P)H dehydrogenase quinone 1,literature
+Paris saponin VI,HMOX1,Heme oxygenase 1 (HO-1),literature
+Paris saponin VII,AKT1,RAC-alpha serine/threonine-protein kinase,literature
+Paris saponin VII,TP53,Cellular tumor antigen p53,literature
+Paris saponin VII,TNF,Tumor necrosis factor,literature
+Paris saponin VII,CASP3,Caspase-3,literature
+Paris saponin VII,BCL2,Apoptosis regulator Bcl-2,literature
+Paris saponin VII,MAPK1,Mitogen-activated protein kinase 1 (ERK2),literature
+Paris saponin VII,IKBKB,Inhibitor of nuclear factor kappa-B kinase subunit beta (IKKβ),literature
+Paris saponin VII,NFE2L2,Nuclear factor erythroid 2-related factor 2 (Nrf2),literature
+Paris saponin VII,KEAP1,Kelch-like ECH-associated protein 1,literature

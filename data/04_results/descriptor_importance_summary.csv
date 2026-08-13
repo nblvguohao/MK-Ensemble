@@ -1,0 +1,11 @@
+rank,descriptor,description,mean_abs_shap
+1,nAcid,number of acidic groups,0.043
+2,SMR_VSA10,molar refractivity bin 10,0.038
+3,TopoPSA,topological polar surface area,0.035
+4,ATS0dv,autocorrelation descriptor weighted,0.031
+5,PEOE_VSA6,partial equalization of orbital electronegativity,0.028
+6,BalabanJ,Balaban distance connectivity index,0.026
+7,SpAbs_A,graph energy,0.024
+8,ATS1m,autocorrelation of mass lag 1,0.022
+9,SLogP_VSA3,logP bin 3,0.021
+10,MaxAbsEState,maximum absolute EState,0.019

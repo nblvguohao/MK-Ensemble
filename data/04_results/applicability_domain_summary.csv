@@ -1,0 +1,4 @@
+assay,train_n,test_n,h_star,x_outliers,y_outliers,distance_boundary,within_ad,outside_ad,all_test_r2,all_test_rmse,all_test_mae,within_ad_r2,within_ad_rmse,within_ad_mae,outside_ad_r2,outside_ad_rmse,outside_ad_mae
+DPPH,54,9,0.333,0,0,1,8,1,0.561,0.333,0.259,0.593,0.340,0.258,NA,0.268,0.268
+ABTS,31,6,0.581,0,1,0,5,1,0.801,0.411,0.253,0.964,0.143,0.112,NA,0.955,0.955
+FRAP,12,4,1.500,0,0,0,4,0,0.836,0.140,0.106,0.836,0.140,0.106,NA,NA,NA
