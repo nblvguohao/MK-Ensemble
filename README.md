@@ -1,164 +1,95 @@
 # MK-Ensemble: Fragment-based Multi-Kernel Ensemble for Interpretable SAR Modeling
 
-A computational framework combining multi-kernel support vector regression, fragment-level attribution, and stacking ensembles for small-sample natural product SAR datasets.
+Computational framework for small-sample natural-product structure-activity relationship (SAR) modeling using multi-kernel regression, fragment-level interpretation, domain-aware variants, and stacking.
 
-## Overview
+## Publication
 
-MK-Ensemble is an interpretable machine learning framework for structure-activity relationship (SAR) modeling in data-scarce regimes (n < 100). It integrates Dice, Tanimoto, and RBF kernels with fragment attribution to provide predictive performance and chemically interpretable outputs.
+This repository accompanies the accepted article:
 
-This repository contains the implementation, curated datasets, and reproducibility code for:
+> **MK-Ensemble: fragment-based multi-kernel ensemble for interpretable structure-activity relationship modeling of steroidal saponins**  
+> Guohao Lv, Yingchun Xia, Huichao Liu, Xiaolei Zhu, Shuai Yang, Qingyong Wang, Lichuan Gu  
+> *Journal of Cheminformatics* (2026)  
+> DOI: **10.1186/s13321-026-01270-x**
 
-> MK-Ensemble: Fragment-based Multi-Kernel Ensemble for Interpretable Structure-Activity Relationship Modeling of Steroidal Saponins
->
-> Guohao Lv, Yingchun Xia, Huichao Liu, Xiaolei Zhu, Shuai Yang, Qingyong Wang, Lichuan Gu
->
-> Journal of Cheminformatics, 2026 (submitted)
+The accepted manuscript reports 91 unique compounds and 128 activity records across DPPH (n=70), ABTS (n=42), and FRAP (n=16). The primary headline results are R²=0.846 for DPPH and R²=0.920 for ABTS; FRAP is exploratory because of its small sample size.
 
-## Methodological Innovation
+## Published method versus development code
 
-### Core Features
+The **published analysis** is the four-stage workflow described in the accepted manuscript:
 
-1. Multi-kernel integration using Dice (Morgan), Tanimoto (MACCS), and RBF (physicochemical) kernels
-2. Fragment-level interpretability through BRICS decomposition and attribution scoring
-3. Small-sample optimization for natural product datasets
-4. Validation across internal SAR analysis, external BACE benchmarking, and mechanistic evidence
+1. Base multi-kernel SVR with BRICS-derived fragment information.
+2. Hybrid enhancement with molecular descriptors/fingerprints.
+3. Domain-aware/domain-adapted model variants.
+4. Ridge stacking with out-of-fold meta-features and nested evaluation.
 
-### Performance
+The repository also contains **development/experimental neural code** (`src/model.py`, `src/train_hybrid_fragmoe.py`, and related GIN/MoE utilities). Those files document model-development experiments and **must not be interpreted as the exact architecture used to generate every headline value in the accepted manuscript**. The paper-aligned kernel/stacking utilities are primarily in `src/optimized_svr_v2.py`, `src/model_router.py`, `src/ensemble_models.py`, and `external_validation/`.
 
-| Assay | n | R^2 | RMSE |
-|---|---:|---:|---:|
-| DPPH | 70 | 0.846 | 0.154 |
-| ABTS | 42 | 0.920 | 0.089 |
-| FRAP | 16 | 0.779 | 0.140* |
+This distinction is now made explicit to avoid conflating development prototypes with the accepted-paper pipeline.
 
-*Exploratory because of the small FRAP sample size.
+## Paper-reported performance
 
-## Validation and Findings
+| Assay | n | R² | RMSE | Status |
+|---|---:|---:|---:|---|
+| DPPH | 70 | 0.846 | 0.154 | Primary |
+| ABTS | 42 | 0.920 | 0.089 | Primary |
+| FRAP | 16 | 0.779 | 0.140 | Exploratory |
 
-### Fragment Contribution Analysis
+For exact paper-reported values and known repository/manuscript differences, see [`PAPER_ALIGNMENT.md`](PAPER_ALIGNMENT.md).
 
-Integrated Gradients attribution on steroidal saponins is implemented in `src/explainability.py`. Summary validation outputs used by the revised supporting information are included in `data/04_results/fragment_attribution_validation.csv`.
-
-### External Validation on MoleculeNet BACE
-
-The external validation uses the BACE pIC50 regression benchmark with the predefined scaffold split and n_train = 203.
-
-| Method | Test R^2 |
-|---|---:|
-| SVR-Tanimoto | 0.363 |
-| MK-Ensemble (Consensus) | 0.326 |
-| Random Forest | 0.245 |
-| Chemprop (MPNN) | 0.194 |
-
-The curated external validation files are included under `external_validation/`. Intermediate Chemprop checkpoints, trainer logs, and serialized feature caches are intentionally excluded from version control.
-
-### Mechanistic Validation
-
-- Nrf2/HO-1 pathway enrichment: fold enrichment = 4.2, FDR = 0.003, with 4 overlapping genes in `data/04_results/pathway_enrichment.csv`
-- Keap1 docking summary: best binding energy = -11.137 kcal/mol in `data/Table3_docking_summary.csv`
-- Molecular dynamics: 100 ns simulation supports receptor-ligand stability
-
-## Repository Structure
+## Repository layout
 
 ```text
-mk_ensemble/
-|-- data/                         Curated datasets and reported tables
-|   |-- 01_dataset/               Saponin activity dataset and splits
-|   |-- 02_structures/            3D molecular structures
-|   |-- 03_targets/               Predicted antioxidant targets
-|   `-- 04_results/               Source data for SI tables and figures
-|-- external_validation/          MoleculeNet BACE validation
-|   |-- data/bace.csv
-|   |-- results/
-|   |   |-- bace_external_validation_results.csv
-|   |   `-- bace_predictions.json
-|   |-- run_bace_external_validation.py
-|   |-- generate_bace_figure.py
-|   `-- README.md
-|-- src/                          Source code
-|-- requirements.txt              Python dependencies
-|-- LICENSE                       MIT License
-`-- README.md                     This file
+MK-Ensemble/
+|-- PAPER_ALIGNMENT.md             Accepted-paper provenance and discrepancy log
+|-- data/
+|   |-- 01_dataset/                Activity data and split metadata
+|   |-- 02_structures/             Molecular structures
+|   |-- 03_targets/                Predicted targets/pathway inputs
+|   |-- 04_results/                Released result summaries
+|   `-- paper_reported_values.csv  Values transcribed from the accepted manuscript
+|-- external_validation/           BACE external-validation code/results
+|-- scripts/
+|   `-- verify_reproducibility.py  Repository-level consistency checks
+|-- src/                            Modeling/development code
+|-- requirements.txt
+`-- LICENSE
 ```
 
-## Quick Start
+## Reproducibility scope
 
-### Installation
-
-```bash
-git clone https://github.com/nblvguohao/MK-Ensemble.git
-cd MK-Ensemble
-pip install -r requirements.txt
-```
-
-### Verify Reproducibility
+Run:
 
 ```bash
 python scripts/verify_reproducibility.py
 ```
 
-The verification script checks the released datasets, source tables, BACE
-prediction JSON, and manuscript-level summary metrics. Development and modeling
-scripts are retained in `src/`; heavyweight checkpoints, cached fingerprints,
-and Chemprop trainer outputs are excluded from version control.
+This performs **repository-level consistency checks** on released CSV/JSON files and selected manuscript-level summary values. It is **not a full end-to-end retraining certificate**: heavyweight checkpoints, serialized feature caches, and some trainer artifacts are not part of the public archive.
 
-### Run External Validation
-
-```bash
-cd external_validation
-python run_bace_external_validation.py
-python generate_bace_figure.py
-```
+Where a published number cannot currently be regenerated from the released artifact set, it is listed explicitly in `PAPER_ALIGNMENT.md` rather than silently replacing the underlying result file.
 
 ## Dataset
 
-- Compounds: 91 unique molecules
-- Activity records: 128
-- Assays: DPPH (70), ABTS (42), FRAP (16 exploratory)
-- Features: Morgan fingerprints, MACCS keys, and physicochemical descriptors
+Current public files contain:
 
-| File | Description | Location |
-|---|---|---|
-| antioxidant_dataset.csv | Main activity dataset | data/01_dataset/ |
-| saponins_annotated.csv | Compound annotations | data/01_dataset/ |
-| scaffold_split.json | Train/validation/test split metadata | data/01_dataset/ |
-| saponins_3d.sdf | 3D structures | data/02_structures/ |
-| targets_predicted.csv | Predicted targets | data/03_targets/ |
-| pathway_enrichment.csv | KEGG/Reactome enrichment results | data/04_results/ |
-| applicability_domain_summary.csv | AD counts and AD-stratified prediction errors | data/04_results/ |
-| train_cv_performance.csv | Training-set versus CV performance used in Table S2 | data/04_results/ |
-| ablation_summary.csv | Stage-wise ablation results used in Table S3 | data/04_results/ |
-| frap_exploratory_results.csv | FRAP exploratory results used in Table S4 | data/04_results/ |
-| statistical_model_comparison.csv | Pairwise model comparison used in Table S5 | data/04_results/ |
-| bace_train_test_gap.csv | BACE train-test gap summary used in Table S6 | data/04_results/ |
-| y_randomization_summary.csv | Response-permutation summary used in Figure S10/Table S9 | data/04_results/ |
-| fragment_attribution_validation.csv | IG/SHAP/bootstrap/permutation attribution summary | data/04_results/ |
-| learning_curve_summary.csv | Learning-curve values used in Figure S8 | data/04_results/ |
-| descriptor_importance_summary.csv | Top Mordred descriptor importance values used in Table S10 | data/04_results/ |
-| descriptor_class_importance.csv | Descriptor-class importance distribution used in Table S10 | data/04_results/ |
-| bace.csv | MoleculeNet BACE dataset | external_validation/data/ |
-| bace_external_validation_results.csv | External validation metrics | external_validation/results/ |
-| bace_predictions.json | External validation predictions | external_validation/results/ |
+- 91 unique compounds
+- 128 activity records
+- DPPH: 70 records
+- ABTS: 42 records
+- FRAP: 16 records (exploratory)
 
-## Computational Methods
+The accepted manuscript additionally describes the dataset as 24 steroidal saponins plus 67 reference antioxidants. Because the currently released artifact set contains version-sensitive annotations/splits that do not unambiguously reconstruct every figure-level category count, this manuscript statement is recorded in `paper_reported_values.csv` and the remaining mismatch is documented in `PAPER_ALIGNMENT.md` rather than being forced into the source data.
 
-The multi-kernel SVR combines Morgan, MACCS, and physicochemical feature spaces:
+## External validation: MoleculeNet BACE
 
-```text
-K_combined = w1 * K_Dice(Morgan) + w2 * K_Tanimoto(MACCS) + w3 * K_RBF(physicochemical)
-```
+The accepted manuscript reports a BACE scaffold-split experiment with n_train=203 and n_test=1265. The ranking and R² values in the released result file agree with the accepted manuscript for the main methods (for example, SVR-Tanimoto R²≈0.363 and MK-Ensemble Consensus R²≈0.326).
 
-Weights were selected through nested cross-validation:
+The currently released prediction file recomputes different RMSE values from those printed in the accepted manuscript Table 2. This unresolved scale/version discrepancy is documented in `PAPER_ALIGNMENT.md`; the prediction-derived values are retained unchanged to preserve provenance.
 
-- DPPH: w1 = 0.55, w2 = 0.30, w3 = 0.15
-- ABTS: w1 = 0.60, w2 = 0.25, w3 = 0.15
-- FRAP: w1 = 0.50, w2 = 0.35, w3 = 0.15
+## Fragment attribution and mechanistic analyses
 
-The revised stacking evaluation uses an outer evaluation loop in which the Ridge
-meta-learner is trained only on meta-features generated inside the outer
-training partition. The outer held-out fold is predicted after refitting the
-base learners on the outer training partition, preventing the meta-learner from
-being evaluated on the same pooled out-of-fold predictions used to fit it.
+The repository releases summary attribution statistics and pathway/docking outputs. The accepted manuscript contains figure-level values/labels that are not all reconstructible from the current summary files alone. These are therefore treated as **paper-reported results** unless a raw per-fragment/per-pathway provenance file is present.
+
+In particular, `data/04_results/fragment_attribution_validation.csv` is a summary table and is not a replacement for the full Figure 3 attribution matrix.
 
 ## Requirements
 
@@ -173,14 +104,15 @@ See `requirements.txt` for the full dependency list.
 ## Citation
 
 ```bibtex
-@article{mkensemble2026,
-  title={MK-Ensemble: Fragment-based Multi-Kernel Ensemble for Interpretable Structure-Activity Relationship Modeling of Steroidal Saponins},
+@article{lv2026mkensemble,
+  title={MK-Ensemble: fragment-based multi-kernel ensemble for interpretable structure-activity relationship modeling of steroidal saponins},
   author={Lv, Guohao and Xia, Yingchun and Liu, Huichao and Zhu, Xiaolei and Yang, Shuai and Wang, Qingyong and Gu, Lichuan},
   journal={Journal of Cheminformatics},
-  year={2026}
+  year={2026},
+  doi={10.1186/s13321-026-01270-x}
 }
 ```
 
 ## License
 
-MIT License. See `LICENSE` for details.
+MIT License. See `LICENSE` for code licensing; dataset licensing is described under `data/`.
