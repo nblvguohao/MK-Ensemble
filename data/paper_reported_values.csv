@@ -1,0 +1,36 @@
+section,item,assay,metric,paper_value,repository_value,status,notes
+Dataset,Unique compounds,ALL,count,91,91,aligned,Accepted manuscript and released dataset summary agree
+Dataset,Activity records,ALL,count,128,128,aligned,Accepted manuscript and released dataset summary agree
+Dataset,Steroidal saponins,ALL,count,24,,open,Accepted Methods text reports 24; current released artifacts do not provide a clean figure-level provenance mapping
+Dataset,Reference antioxidants,ALL,count,67,,open,Accepted Methods text reports 67; current released artifacts do not provide a clean figure-level provenance mapping
+Figure 1A,Steroidal saponins,ALL,count,16,,manuscript_internal_mismatch,Figure 1A displays 16 while Methods text reports 24
+Figure 1A,Other antioxidants,ALL,count,75,,manuscript_internal_mismatch,Figure 1A displays 75 while Methods text reports 67
+Figure 1C,Molecular weight mean,ALL,Da,408.1,,manuscript_internal_mismatch,Figure 1C displays 408.1 while Methods text reports 604.8
+Methods,Molecular weight mean,ALL,Da,604.8,,manuscript_internal_mismatch,Text value conflicts with Figure 1C
+Table 1,MK-Ensemble,DPPH,R2,0.846,0.846,aligned,
+Table 1,MK-Ensemble,DPPH,RMSE,0.154,0.154,aligned,
+Table 1,MK-Ensemble,DPPH,MAE,0.121,0.121,aligned,
+Table 1,MK-Ensemble,DPPH,Q2CV,0.831,0.831,aligned,
+Table 1,MK-Ensemble,ABTS,R2,0.920,0.920,aligned,
+Table 1,MK-Ensemble,ABTS,RMSE,0.089,0.089,aligned,
+Table 1,MK-Ensemble,ABTS,MAE,0.068,0.068,aligned,
+Table 1,MK-Ensemble,ABTS,Q2CV,0.907,0.907,aligned,
+Table 1,XGBoost,ABTS,MAE,0.098,0.094,open_version_difference,Do not overwrite without fold-level source output
+Table 1,XGBoost,ABTS,Q2CV,0.826,0.829,open_version_difference,Do not overwrite without fold-level source output
+Figure 5,Nrf2/HO-1,ALL,overlap_genes,4,4,aligned,
+Figure 5,Nrf2/HO-1,ALL,FDR,0.003,0.003,aligned,
+Figure 5,VEGF signaling pathway,ALL,overlap_genes,1,0,open_version_difference,Current pathway_enrichment.csv cannot generate the printed figure label
+Figure 5,Apoptosis,ALL,overlap_genes,1,0,open_version_difference,Current pathway_enrichment.csv cannot generate the printed figure label
+Figure 5,PI3K-Akt signaling pathway,ALL,overlap_genes,1,0,open_version_difference,Current pathway_enrichment.csv cannot generate the printed figure label
+Figure 5,FoxO signaling pathway,ALL,overlap_genes,1,0,open_version_difference,Current pathway_enrichment.csv cannot generate the printed figure label
+Figure 5,MAPK signaling pathway,ALL,overlap_genes,1,0,open_version_difference,Current pathway_enrichment.csv cannot generate the printed figure label
+Table 2,SVR-Tanimoto,BACE,R2,0.363,0.3631582957,aligned_rounding,
+Table 2,SVR-Tanimoto,BACE,RMSE,0.781,1.0177586592,open_scale_or_version_difference,R2 agrees but RMSE does not
+Table 2,MK-Ensemble Consensus,BACE,R2,0.326,0.3262893509,aligned_rounding,
+Table 2,MK-Ensemble Consensus,BACE,RMSE,0.804,1.0468049418,open_scale_or_version_difference,R2 agrees but RMSE does not
+Applicability Domain,Within AD,DPPH,count,3/7,8/9,open_version_difference,Accepted manuscript and current AD summary use different test counts/results
+Applicability Domain,Within AD,ABTS,count,3/4,5/6,open_version_difference,Accepted manuscript and current AD summary use different test counts/results
+Y-randomization,Observed R2,DPPH,R2,0.846,0.846,aligned,
+Y-randomization,Random max,DPPH,R2,0.19,0.19,aligned,
+Y-randomization,Observed R2,ABTS,R2,0.920,0.920,aligned,
+Y-randomization,Random max,ABTS,R2,0.24,0.24,aligned,
